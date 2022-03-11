@@ -1,18 +1,15 @@
 #include<stdio.h>
 #include<string.h>
-
 /**
- *program to print out string using puts function
- *
+ * main-function to put out given string
+ * Description: print out given string without using printf use puts instead
+ * Return: Return value 0
  */
-
 int main(void)
 {
 	char quote[] = "\"Programming is like building a multilingual puzzle\n";
 
 	puts(quote);
-	/**
-	 *print out value of quote using put
-	 */
+
 	return (0);
 }
