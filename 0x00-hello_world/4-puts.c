@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char quote[] = "\"Programming is like building a multilingual puzzle\n";
+	char quote[] = "%s \"Programming is like building a multilingual puzzle\n";
 
 	puts(quote);
 
