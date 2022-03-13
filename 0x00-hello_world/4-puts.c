@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<string.h>
 /**
  * main-function to put out given string
  * Description: print out given string without using printf use puts instead
@@ -7,9 +6,7 @@
  */
 int main(void)
 {
-	char quote[] = "\"Programming is like building a multilingual puzzle\n";
-
-	puts(quote);
+	puts("\"Programming is like building a multilingual puzzle\n");
 
 	return (0);
 }
